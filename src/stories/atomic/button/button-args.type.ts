@@ -3,4 +3,4 @@ export interface ButtonArgs {
     size: ButtonSize
 }
 
-type ButtonSize = 'mini' | 'small' | 'medium' | 'large';
+export type ButtonSize = 'mini' | 'small' | 'medium' | 'large';
