@@ -1,9 +1,9 @@
 <template>
-    <button class="button">{{this.label}}</button>
+    <button class="button" @click="click">{{this.label}}</button>
 </template>
 
 <script>
-import {ButtonSize} from './button-args.type.ts'
+import {ButtonSize} from './button-args.type.ts';
 
 export default {
   data() {
@@ -11,13 +11,19 @@ export default {
     }
   },
   props: {
-    label: ButtonSize
+    label: String,
+    size: ButtonSize
   },
   computed: {
     cssVars() {
       return {
         '--size': mapToSize(this.size)
       }
+    }
+  },
+  methods: {
+    click() {
+      console.log(this.size)
     }
   }
 }
