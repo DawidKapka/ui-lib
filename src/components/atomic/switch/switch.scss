@@ -1,0 +1,29 @@
+.switch {
+  height: 32px;
+  width: 64px;
+  border-radius: 16px;
+  background-color: #FFFFFF;
+  box-shadow:  5px 5px 12px #b3b3b3,
+  -5px -5px 12px #FFFFFF;
+  transition: background-color 500ms;
+}
+
+.switch-active {
+  background-color: #BD68EE;
+  transition: background-color 500ms;
+}
+
+.switch-dot {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  transform: translate(4px, 4px);
+  background-color: #BD68EE;
+  transition: transform 500ms;
+}
+
+.switch-dot-active {
+  transition: transform 500ms;
+  transform: translate(36px, 4px);
+  background-color: #FFFFFF;
+}

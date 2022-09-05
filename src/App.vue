@@ -3,8 +3,10 @@
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component';
+import {default as Button} from "@/components/atomic/button/Button.vue";
 @Options({
   components: {
+    Button
   },
 })
 export default class App extends Vue {}

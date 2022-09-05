@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+.button {
+  height: 48px;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  border: none;
+  border-radius: 4px;
+  box-shadow:  5px 5px 12px #b3b3b3,
+  -5px -5px 12px #ffffff;
+}
+
+.button:hover {
+  box-shadow:  7px 7px 15px #cccccc,
+  -7px -7px 15px #ffffff;
+}
+
+.mini {
+  width: 48px;
+}
+
+.small {
+  width: 64px;
+}
+
+.medium {
+  width: 128px;
+}
+
+.large {
+  width: 256px;
+}
+
+.primary {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.primary:active {
+  box-shadow: inset 7px 7px 15px #cccccc,
+  inset -7px -7px 15px #ffffff;
+}
+
+.secondary {
+  background-color: #BD68EE;
+  color: #FFFFFF;
+}
+
+.secondary:active {
+  box-shadow: inset 7px 7px 15px #9753be,
+  inset -7px -7px 15px #e37dff;
+}
+
+.positive {
+  background-color: #7CB518;
+  color: #FFFFFF;
+}
+
+.positive:active {
+  box-shadow: inset 7px 7px 15px #639113,
+  inset -7px -7px 15px #95d91d;
+}
+
+.negative {
+  background-color: #D90429;
+  color: #FFFFFF;
+}
+
+.negative:active {
+  box-shadow: inset 7px 7px 15px #ae0321,
+  inset -7px -7px 15px #ff0531;
+}

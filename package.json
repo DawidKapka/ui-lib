@@ -7,15 +7,13 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "CHOKIDAR_USEPOLLING=true start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
-    "vue-class-component": "^8.0.0-0"
-  },
-  "devDependencies": {
+    "vue-class-component": "^8.0.0-0",
     "@babel/core": "^7.18.13",
     "@storybook/addon-actions": "^6.5.10",
     "@storybook/addon-essentials": "^6.5.10",
