@@ -2,14 +2,24 @@
   height: 32px;
   width: 64px;
   border-radius: 16px;
-  background-color: #FFFFFF;
+  background-color: #EBEBEB;
   box-shadow:  5px 5px 12px #b3b3b3,
   -5px -5px 12px #FFFFFF;
   transition: background-color 500ms;
 }
 
+.switch-pn {
+  background-color: #C80425;
+  transition: background-color 500ms;
+}
+
 .switch-active {
   background-color: #BD68EE;
+  transition: background-color 500ms;
+}
+
+.switch-active-pn {
+  background-color: #6FA215;
   transition: background-color 500ms;
 }
 
@@ -22,7 +32,11 @@
   transition: transform 500ms;
 }
 
-.switch-dot-active {
+.switch-dot-pn {
+  background-color: #FFFFFF;
+}
+
+.switch-dot-active, .switch-dot-active-pn {
   transition: transform 500ms;
   transform: translate(36px, 4px);
   background-color: #FFFFFF;
