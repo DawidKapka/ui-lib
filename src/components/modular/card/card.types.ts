@@ -1,5 +1,5 @@
 export interface CardArgs {
-    title: String,
-    text: String,
-    imgUrl: String
+    title: string,
+    text: string,
+    imgUrl: string
 }

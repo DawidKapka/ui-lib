@@ -14,7 +14,7 @@ const Template = (args: SwitchArgs) => ({
     setup() {
         return { args };
     },
-    template: '<Switch v-bind="args">',
+    template: '<Switch v-bind="args"></Switch>',
 })
 
 export const Primary: any = Template.bind({});

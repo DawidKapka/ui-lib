@@ -1,24 +1,26 @@
 <template>
+  <v-app>
+    <v-main>
+      <HelloWorld/>
+    </v-main>
+  </v-app>
 </template>
 
 <script lang="ts">
-import { Options, Vue } from 'vue-class-component';
-import {default as Button} from "@/components/atomic/button/Button.vue";
-@Options({
+import { defineComponent } from 'vue'
+import HelloWorld from './components/HelloWorld.vue'
+
+export default defineComponent({
+  name: 'App',
+
   components: {
-    Button
+    HelloWorld,
+  },
+
+  data () {
+    return {
+      //
+    }
   },
 })
-export default class App extends Vue {}
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
